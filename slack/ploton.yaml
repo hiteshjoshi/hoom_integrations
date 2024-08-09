@@ -1,0 +1,19 @@
+id: cc80c26e-0da9-408a-93b4-db0d08d7f130
+name: Slack
+version: 1.0.0
+logo: https://www.svgrepo.com/show/327394/logo-slack.svg
+description: Slack notifications
+platform: Typescript
+theme_color: '#f53b57'
+main: src/index.ts
+readme: |
+  Slack notifications for every hoom message you get.
+  
+  Please be ready with the slack webhook url.
+user_inputs:
+- name: slack_webhook_url
+  description: The slack webhook you want to use
+  default: null
+  required: true
+  type: url
+oauth_identifier: null

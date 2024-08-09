@@ -1,0 +1,14 @@
+id: c9290321-9000-4a55-9fb9-2b5cbf1a3c04
+name: Hubspot
+version: 1.0.0
+logo: https://www.vectorlogo.zone/logos/hubspot/hubspot-icon.svg
+description: Hubspot contacts sync
+platform: Typescript
+theme_color: '#0fbcf9'
+main: src/index.ts
+readme: |
+  Hubspot contacts sync app for new hoom messages.
+
+  You will need to authenticate with Hubspot to use this app.
+user_inputs:
+oauth_identifier: hubspot

@@ -1,0 +1,24 @@
+id: feaff62b-9942-408b-930b-378938407d7b
+name: Google sheet
+version: 1.0.0
+logo: https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-1024.png
+description: Google sheet as database
+platform: Typescript
+theme_color: '#485460'
+main: src/index.ts
+readme: |
+  Google sheet as a database for hoom messages.
+
+  Please be ready with the google sheet link.
+
+  #### Your sheet should have the following header columns:
+  - email
+  - message
+
+user_inputs:
+- name: google_spreadsheet_link
+  description: The google spreadsheet link
+  default: null
+  required: true
+  type: url
+oauth_identifier: google
