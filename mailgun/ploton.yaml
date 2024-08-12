@@ -1,0 +1,43 @@
+id: 33da40d8-febf-4a25-a1ed-8c7a4ff87438
+name: Mailgun
+version: 1.0.0
+logo: https://raw.githubusercontent.com/mailgun/media/master/Mailgun_Icon.svg
+description: Mailgun to send emails
+platform: Typescript
+theme_color: '#000000'
+main: src/index.ts
+readme: |
+  Mailgun to send emails
+
+  Please be ready with mailgun SMTP credentials.
+user_inputs:
+- name: smtp_username
+  description: The mailgun SMTP username
+  default: null
+  required: true
+  type: text
+- name: smtp_password
+  description: The mailgun SMTP password
+  default: null
+  required: true
+  type: password
+- name: smtp_host
+  description: The mailgun SMTP host
+  default: null
+  required: true
+  type: text
+- name: smtp_port
+  description: The mailgun SMTP port
+  default: null
+  required: true
+  type: number
+- name: from_email
+  description: The email address to send from
+  default: null
+  required: true
+  type: email
+- name: to_email
+  description: The email address to send to
+  default: null
+  required: true
+  type: email
