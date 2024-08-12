@@ -4,9 +4,12 @@ const smtpUsername = process.env.SMTP_USERNAME;
 const smtpPassword = process.env.SMTP_PASSWORD;
 const smtpHost = process.env.SMTP_HOST;
 const smtpPort = process.env.SMTP_PORT;
-const fromEmail = process.env.EMAIL;
-const message = process.env.MESSAGE;
+const fromEmail = process.env.FROM_EMAIL;
 const toEmail = process.env.TO_EMAIL;
+
+//Coming from hoom
+const userEmail = process.env.EMAIL;
+const message = process.env.MESSAGE;
 
 if (
   !smtpUsername ||
@@ -47,4 +50,4 @@ const sendEmail = async (to: string, subject: string, text: string) => {
 };
 
 // Example usage
-sendEmail(toEmail, "New Hoom Message", message);
+sendEmail(toEmail, "New Hoom Message from " + userEmail, message);

@@ -1,15 +1,15 @@
 id: 33da40d8-febf-4a25-a1ed-8c7a4ff87438
-name: Mailgun
+name: SMTP
 version: 1.0.0
-logo: https://raw.githubusercontent.com/mailgun/media/master/Mailgun_Icon.svg
-description: Mailgun to send emails
+logo: https://www.svgrepo.com/show/14478/email.svg
+description: SMTP to send hoom emails
 platform: Typescript
 theme_color: '#000000'
 main: src/index.ts
 readme: |
-  Mailgun to send emails
+  SMTP to send hoom emails.
 
-  Please be ready with mailgun SMTP credentials.
+  You will need SMTP credentials to use this app.
 user_inputs:
 - name: smtp_username
   description: The mailgun SMTP username
