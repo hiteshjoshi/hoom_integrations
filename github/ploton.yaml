@@ -1,0 +1,20 @@
+id: 9c24f4da-aac0-4945-95b1-eec50dd3814b
+name: Github
+version: 1.0.0
+logo: https://example.com/logo.png
+description: Message to github issue
+platform: Typescript
+theme_color: '#000000'
+main: src/index.ts
+readme: |2
+
+  # Application description
+
+  This is some _Markdown_ content that includes:
+
+  - A list
+  - With items
+
+  **Bold** and *italic* text can also be included.
+user_inputs:
+oauth_identifier: airtable

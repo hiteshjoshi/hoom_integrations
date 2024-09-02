@@ -1,0 +1,12 @@
+id: 3ee2bb3b-1945-4eff-8899-a3202524dbe1
+name: Google calendar
+version: 1.0.0
+logo: https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-03-1024.png
+description: Google event schedular if the message contains date/time
+platform: Typescript
+theme_color: '#000000'
+main: src/index.ts
+readme: |
+  Google event schedular if the message contains date/time.
+user_inputs:
+oauth_identifier: googlecal
